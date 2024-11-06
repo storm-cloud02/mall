@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">   
+    <title>Add Shop</title>
+</head>
+<body>
+    <h1>Add Shop</h1>
+    <!--<form action= "URL" method="post/get">-->
+    <form action="add_shop.php" method="post">
+        <label for="brand">Shop Brand:</label> 
+        <input type="text" id="brand" name="brand" required><br>
+
+        <label for="rent">Shop Rent:</label>
+        <input type="text" id="rent" name="rent" required><br>
+
+        <label for="manager">Shop Manager:</label>
+        <input type="text" id="manager" name="manager" required><br>
+
+        <label for="shop_number">Shop Number:</label>
+        <input type="text" id="shop_number" name="shop_number" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <label for="renting_date">Renting Date:</label>
+        <input type="date" id="renting_date" name="renting_date" required><br>
+
+        <button type="submit">Add Shop</button>
+    </form>
+    <a href="index.html">Back</a>
+</body>
+</html>
